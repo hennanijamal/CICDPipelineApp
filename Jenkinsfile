@@ -9,12 +9,12 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        echo 'test build'
+        sh 'whoami'
       }
     }
     stage('Install Lint HTML') {
       steps {
-        sh 'su npm install -g htmllint-cli'
+        sh 'npm install -g htmllint-cli'
       }
     }
     stage('Lint HTML') {

@@ -12,14 +12,14 @@ pipeline {
         echo 'php --version'
       }
     }
-    stage('Install Packages') {
+    stage('Install Lint HTML') {
       steps {
         sh 'npm install htmllint-cli'
       }
     }
-    stage('Install Lint HTML') {
+    stage('Lint HTML') {
       steps {
-        sh 'node --version'
+        sh 'htmllint ./index.html'
       }
     }
     stage('Production') {

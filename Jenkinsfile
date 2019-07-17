@@ -14,7 +14,7 @@ pipeline {
     }
     stage('Install Lint HTML') {
       steps {
-        sh 'sudo npm install -g htmllint-cli'
+        sh 'npm install'
       }
     }
     stage('Lint HTML') {

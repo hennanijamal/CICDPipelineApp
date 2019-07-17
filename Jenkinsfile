@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh 'whoami'
+        echo 'whoami'
       }
     }
     stage('Install Lint HTML') {

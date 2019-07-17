@@ -11,9 +11,9 @@ pipeline {
         echo 'php --version'
       }
     }
-    stage('Lint HTML') {
+    stage('Install Packages') {
       steps {
-        echo 'Lint HTML'
+        sh 'npm install'
       }
     }
     stage('Install Lint HTML') {

@@ -6,6 +6,11 @@ pipeline {
         echo 'php --version'
       }
     }
+    stage('Lint HTML') {
+      steps {
+        echo 'Lint HTML'
+      }
+    }
   }
   environment {
     testenv = 'testenvvalue'

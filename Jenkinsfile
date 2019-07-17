@@ -14,7 +14,7 @@ pipeline {
     }
     stage('Install Lint HTML') {
       steps {
-        sh 'adipster npm install -g htmllint-cli'
+        sh 'npm install htmllint-cli'
       }
     }
     stage('Lint HTML') {

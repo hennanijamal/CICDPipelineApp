@@ -13,7 +13,7 @@ pipeline {
     }
     stage('Install Packages') {
       steps {
-        sh 'npm install'
+        sh 'npm install htmllint-cli'
       }
     }
     stage('Install Lint HTML') {

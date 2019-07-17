@@ -14,12 +14,12 @@ pipeline {
     }
     stage('Install Lint HTML') {
       steps {
-        sh 'npm install htmllint-cli && htmllint ./index.html'
+        sh 'npm install -g htmllint-cli'
       }
     }
     stage('Lint HTML') {
       steps {
-        echo 'htmllint ./index.html'
+        sh 'htmllint ./index.html'
       }
     }
     stage('Production') {

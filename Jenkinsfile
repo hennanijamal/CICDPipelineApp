@@ -18,7 +18,7 @@ pipeline {
     }
     stage('Install Lint HTML') {
       steps {
-        echo 'node --version'
+        sh: 'node --version'
       }
     }
   }

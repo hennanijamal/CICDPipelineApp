@@ -13,7 +13,7 @@ pipeline {
     }
     stage('Install Lint HTML') {
       steps {
-        echo "node -v"
+        node -v
       }
     }
   }

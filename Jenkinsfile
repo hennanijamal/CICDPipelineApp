@@ -9,12 +9,12 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh 'apt install sudo -y'
+        echo 'test build'
       }
     }
     stage('Install Lint HTML') {
       steps {
-        sh 'sudo npm install -g htmllint-cli'
+        sh 'root npm install -g htmllint-cli'
       }
     }
     stage('Lint HTML') {

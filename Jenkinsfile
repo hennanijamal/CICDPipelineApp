@@ -11,6 +11,11 @@ pipeline {
         echo 'Lint HTML'
       }
     }
+    stage('Install Lint HTML') {
+      steps {
+        node --version
+      }
+    }
   }
   environment {
     testenv = 'testenvvalue'

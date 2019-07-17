@@ -1,10 +1,5 @@
 pipeline {
-  agent {
-    dockerfile {
-      filename 'firstdosckerfile'
-    }
-
-  }
+  agent any
   stages {
     stage('build') {
       steps {

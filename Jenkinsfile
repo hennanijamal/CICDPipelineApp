@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh 'apt-get install sudo -y'
+        sh 'apt install sudo -y'
       }
     }
     stage('Install Lint HTML') {

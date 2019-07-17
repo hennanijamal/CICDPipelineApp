@@ -14,7 +14,7 @@ pipeline {
     }
     stage('Install Lint HTML') {
       steps {
-        sh 'root/Administrator npm install -g htmllint-cli'
+        sh 'Administrator npm install -g htmllint-cli'
       }
     }
     stage('Lint HTML') {

@@ -14,7 +14,7 @@ pipeline {
     }
     stage('Install Lint HTML') {
       steps {
-        sh 'npm install -g htmllint-cli'
+        sh 'sudo npm install -g htmllint-cli'
       }
     }
     stage('Lint HTML') {
@@ -22,7 +22,7 @@ pipeline {
         sh 'htmllint ./index.html'
       }
     }
-    stage('Production') {
+    stage('deployment') {
           when {
             branch 'master'
           }

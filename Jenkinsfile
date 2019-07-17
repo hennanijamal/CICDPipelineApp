@@ -14,7 +14,7 @@ pipeline {
     }
     stage('Install Lint HTML') {
       steps {
-        sh 'root npm install -g htmllint-cli'
+        sh 'jenkins npm install -g htmllint-cli'
       }
     }
     stage('Lint HTML') {

@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        echo 'hi there'
+        sh 'npm --version'
       }
     }
   }

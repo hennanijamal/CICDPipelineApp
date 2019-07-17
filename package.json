@@ -1,0 +1,22 @@
+{
+  "name": "cicdpipelineapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hennanijamal/CICDPipelineApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hennanijamal/CICDPipelineApp/issues"
+  },
+  "homepage": "https://github.com/hennanijamal/CICDPipelineApp#readme",
+  "dependencies": {
+    "htmllint-cli": "0.0.7"
+  }
+}

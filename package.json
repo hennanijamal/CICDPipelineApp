@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "htmllint ./index.html"
+    "test": "htmllint ./index.html",
+    "existtest": "curl -Is https://cicdpp.s3-us-west-1.amazonaws.com/index.html | head -n 1"
   },
   "repository": {
     "type": "git",

@@ -29,6 +29,11 @@ pipeline {
           }
 
     }
+    stage('Test for website existence') {
+      steps {
+        sh 'npm run existtest'
+      }
+    }
   }
   environment {
     CI = 'true'

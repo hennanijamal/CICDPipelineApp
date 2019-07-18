@@ -7,12 +7,7 @@ pipeline {
 
   }
   stages {
-    stage('build') {
-      steps {
-        echo 'whoami'
-      }
-    }
-    stage('Install Lint HTML') {
+    stage('Install Packages') {
       steps {
         sh 'npm install'
       }

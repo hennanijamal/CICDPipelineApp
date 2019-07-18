@@ -10,7 +10,6 @@ pipeline {
     stage('Install Packages') {
       steps {
         sh 'npm install'
-        sh 'npm install curl'
       }
     }
     stage('Lint HTML') {

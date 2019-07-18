@@ -19,7 +19,7 @@ pipeline {
     }
     stage('Lint HTML') {
       steps {
-        echo 'htmllint ./index.html'
+        sh 'npm run test'
       }
     }
     stage('deployment') {

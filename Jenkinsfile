@@ -31,7 +31,7 @@ pipeline {
     }
     stage('Test for website existence') {
       steps {
-        sh 'npm run existtest'
+        sh 'curl -Is https://cicdpp.s3-us-west-1.amazonaws.com/index.html | head -n 1'
       }
     }
   }

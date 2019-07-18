@@ -10,6 +10,7 @@ pipeline {
     stage('Install Packages') {
       steps {
         sh 'npm install'
+        sh 'npm install curl'
       }
     }
     stage('Lint HTML') {
@@ -28,11 +29,6 @@ pipeline {
             }
           }
 
-    }
-    stage('Test for website existence') {
-      steps {
-        sh 'curl -Is https://cicdpp.s3-us-west-1.amazonaws.com/index.html | head -n 1'
-      }
     }
   }
   environment {

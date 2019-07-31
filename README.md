@@ -89,20 +89,28 @@
 
 
 <td>
-    <img src="./screenshots/htmllint.png"
+    <h3> Fail lint HTML </h3>
+    <img src="./screenshots/screenshot-05.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" /><br/><br/><br/>
+    <h3> Pass lint HTML </h3>
+    <img src="./screenshots/screenshot-06.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
+
 </td>
 </tr>
 
 <tr>
 <td>
     Functional Github repository
+
+    The link to the github repo is in `githubrepo.txt` file
 </td>
 
 
 <td>
-    <img src="./screenshots/index_page_1.png"
+    <img src="./screenshots/screenshot-04.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
 </td>

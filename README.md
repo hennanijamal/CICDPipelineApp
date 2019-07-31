@@ -105,9 +105,10 @@
 <td>
     Functional Github repository
 
-    The link to the github repo is in `githubrepo.txt` file
+The link to the github repo is in `githubrepo.txt` file
 
-    Here is the link to the `index.html` on s3: `https://cicdpp.s3-us-west-1.amazonaws.com/index.html`
+Here is the link to the `index.html` on s3: 
+[https://cicdpp.s3-us-west-1.amazonaws.com/index.html](https://cicdpp.s3-us-west-1.amazonaws.com/index.html)
 </td>
 
 
